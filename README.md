@@ -1,11 +1,11 @@
 # DiscordTools
 A package to simulate user experience in Discord programatically using Selenium Web-Scraping(Chrome-Webdriver)#
 
-# Documentation :
+## Documentation :
 
 Initialize the Discord Tools Object/Class :
 
-  u = DT(username,password)
+   u = DT(username,password)
 
 After initialising a selenium chrome window will open.
 Often,Discord prompts the user with a captcha(Hcpatcha) or will ask the user to confirm new login location.
