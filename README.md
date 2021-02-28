@@ -3,7 +3,7 @@ A package to simulate user experience in Discord programatically using Selenium 
 
 ## Documentation :
 
-Initialize the Discord Tools Object/Class :
+### Initialize the Discord Tools Class :
 
    u = DT(username,password)
 
