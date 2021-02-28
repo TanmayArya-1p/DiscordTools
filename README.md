@@ -97,6 +97,8 @@ Navigates to
 ***
 `.GetChannels(guild)`
 
+**args: `guild` - Guild Name(String)**
+
 Returns a List of Channels in `guild`.
 ### **Example Output** :
 ```
@@ -106,14 +108,22 @@ Returns a List of Channels in `guild`.
 ***
 `.NavigateChannel(guild,chnl)`
 
+**args: `guild` - Guild Name(String) , `chnl` - Channel Name(String)**
+
+
 Navigates to `chnl` in `guild` in the Selenium Chrome Instance.
 `chnl` can be a substring of a channel name due to unicode restrictions.
 ***
 `.NavigateChannelByIndex(guild,ind)`
 
+**args: `guild` - Guild Name(String) , `ind` - Channel Index(Integer)**
+
+
 Navigates to the channel by index(`ind`) in `guild`.
 ***
 `.Chat(msg)`
+
+**args: `msg` - Message to Chat(String)**
 
 Sends Keys of `msg` to the Input Field of the DM or a channel of a guild
 ***
@@ -130,11 +140,16 @@ Returns a Tuple of the last message sent in a channel or DM in sthe structure me
 ***
 `.SpamGuild(guild,chnl_indx,interval , spam ,itr)`
 
+**args: `guild` - Guild Name(String), `chnl_indx` - Index of Channel(Integer), `interval` - Interval between each message in seconds(Float), `spam` - Message to Spam(String), `itr` - No of Times to Spam(Integer)**
+
 Spams `spam` in the given `chnl_indx` of `guild` - Spams `itr` times
 
 ***
 
 `.SpamDM(dm_title,interval,spam,itr)`
+
+**args: `dm_title` - DM Name(String), `interval` - Interval between each message in seconds(Float), `spam` - Message to Spam(String), `itr` - No of Times to Spam(Integer)**
+
 
 Spams `spam` in the given DM by `dm_title`  - Spams `itr` times
 ***
