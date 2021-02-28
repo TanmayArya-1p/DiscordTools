@@ -13,7 +13,9 @@ from discordtools import DT
 ## **Initializing The Discord Tools Class**
 
 ```python
-USER = DT(Usrnm,Pswrd)
+from discordtools import DT
+
+user = DT(Usrnm,Pswrd)
 ```
 
 After initialising, an instance of the Selenium Chrome Window will open.
