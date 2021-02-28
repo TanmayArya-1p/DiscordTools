@@ -32,9 +32,7 @@ After initialising, an instance of the Selenium Chrome Window will open.
 ## **Attributes of** `DT(Usrnm,Pswrd)` 
 
 ***
-```
-.usrnm
-```
+`.usrnm`
 
 Returns Username of User used to initialize class.
 ***
