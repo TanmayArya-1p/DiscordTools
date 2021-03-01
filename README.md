@@ -1,6 +1,10 @@
 # DiscordTools
 A package to simulate user experience in Discord programatically using Selenium Web-Scraping(Chrome-Webdriver)
 
+## Installation
+
+`pip install Discord-Tools`
+
 # Documentation 
 
 ## **Import** 
