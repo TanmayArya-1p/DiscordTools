@@ -10,14 +10,14 @@ A package to simulate user experience in Discord programatically using Selenium 
 ## **Import** 
 
 ```python
-from discordtools import DT
+from Discord_Tools.main import DT
 ```
 ***
 
 ## **Initializing The Discord Tools Class**
 
 ```python
-from discordtools import DT
+from Discord_Tools.main import DT
 
 user = DT(Usrnm,Pswrd)
 ```
