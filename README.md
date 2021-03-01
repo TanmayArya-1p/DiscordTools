@@ -3,6 +3,10 @@ A package to simulate user experience in Discord programatically using Selenium 
 
 # Documentation 
 
+## **Installing Package** :
+
+`pip install Discord-Tools`
+
 ## **Import** 
 
 ```python
