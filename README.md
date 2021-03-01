@@ -1,23 +1,19 @@
 # DiscordTools
 A package to simulate user experience in Discord programatically using Selenium Web-Scraping(Chrome-Webdriver)
 
-## Installation
-
-`pip install Discord-Tools`
-
 # Documentation 
 
 ## **Import** 
 
 ```python
-from Discord_Tools.main import DT
+from discordtools import DT
 ```
 ***
 
 ## **Initializing The Discord Tools Class**
 
 ```python
-from Discord_Tools.main import DT
+from discordtools import DT
 
 user = DT(Usrnm,Pswrd)
 ```
@@ -110,7 +106,7 @@ Returns a List of Channels in `guild`.
 ```
 ["chatroom","media","memes"]
 ```
-***
+
 ***
 `.NavigateChannel(guild,chnl)`
 
