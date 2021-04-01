@@ -156,7 +156,7 @@ Spams `spam` in the given `chnl_indx` of `guild` - Spams `itr` times
 Spams `spam` in the given DM by `dm_title`  - Spams `itr` times
 ***
 
-## Other Methods That can be Imported
+# Other Methods That Can Be Imported
 
 ***
 `DMStartVoice(DM_title)`
