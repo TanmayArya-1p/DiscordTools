@@ -3,21 +3,17 @@ A package to simulate user experience in Discord programatically using Selenium 
 
 # Documentation 
 
-## Installing Package
-
-`pip install Discord-Tools`
-
 ## **Import** 
 
 ```python
-from Discord_Tools.main import DT
+from discordtools import DT
 ```
 ***
 
 ## **Initializing The Discord Tools Class**
 
 ```python
-from Discord_Tools.main import DT
+from discordtools import DT
 
 user = DT(Usrnm,Pswrd)
 ```
@@ -158,4 +154,45 @@ Spams `spam` in the given `chnl_indx` of `guild` - Spams `itr` times
 
 
 Spams `spam` in the given DM by `dm_title`  - Spams `itr` times
+***
+
+## Other Methods That can be Imported
+
+***
+`DMStartVoice(DM_title)`
+
+
+Starts Voice Recognition Messaging in the Direct Message of `DM_title`
+
+### Example
+```py
+from Discord_Tools.main import DMStartVoice
+
+DMStartVoice("foo")
+```
+The User Must Follow their message content after `chat`
+
+For Instance, 
+
+Saying  `chat hello` after Calling the Method will send `hello` in the mentioned `DM_title`
+
+***
+
+`GuildStartVoice(guild,chnl_indx)`
+
+
+Starts Voice Recognition Messaging in the `guild` within the channel of index `chnl_indx`.
+
+### Example
+```py
+from Discord_Tools.main import GuildStartVoice
+
+GuildStartVoice("bar" , 0)
+```
+The User Must Follow their message content after `chat`
+
+For Instance, 
+
+Saying  `chat hello` after Calling the Method will send `hello` in the mentioned channel of `chnl_indx`
+
 ***
