@@ -1,0 +1,9 @@
+README.md
+setup.py
+Discord_Tools/__init__.py
+Discord_Tools/main.py
+Discord_Tools.egg-info/PKG-INFO
+Discord_Tools.egg-info/SOURCES.txt
+Discord_Tools.egg-info/dependency_links.txt
+Discord_Tools.egg-info/requires.txt
+Discord_Tools.egg-info/top_level.txt
