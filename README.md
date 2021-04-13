@@ -1,14 +1,14 @@
 ## **Installation** 
 
 ```python
-from discordtools import DT
+from Discord_Tools.main import DT
 ```
 ***
 
 ## **Initializing The Discord Tools Class**
 
 ```python
-from discordtools import DT
+from Discord_Tools.main import DT
 
 user = DT(Usrnm,Pswrd)
 ```
