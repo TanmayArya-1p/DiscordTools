@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/Discord_Tools/__init__.py
+src/Discord_Tools/defs.py
+src/Discord_Tools/errors.py
+src/Discord_Tools/main.py
+src/Discord_Tools/util.py
+src/Discord_Tools/voice.py
+src/Discord_Tools.egg-info/PKG-INFO
+src/Discord_Tools.egg-info/SOURCES.txt
+src/Discord_Tools.egg-info/dependency_links.txt
+src/Discord_Tools.egg-info/requires.txt
+src/Discord_Tools.egg-info/top_level.txt
