@@ -4,7 +4,7 @@
 ## **Installation** 
 
 ```python
-from Discord_Tools.main import DT
+pip install Discord-Tools
 ```
 ***
 
